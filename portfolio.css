@@ -1,0 +1,36 @@
+body {
+  font-family: Helvetica, Tahoma, sans-serif;
+  font-size: 95%;
+}
+
+nav > ul {
+  font-size: 1.5em;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav > ul > li {
+  float: left;
+}
+
+nav li {
+  background-color: beige;
+  color: black;
+  width: 15%;
+  text-align: center;
+}
+
+ul#submenu {
+  display: none;
+  position: absolute;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+li#skills:hover ul#submenu {
+  display: block;
+}
+
